@@ -1,0 +1,209 @@
+id;Title;Author;Genre;Height;Publisher
+10021;Fundamentals of Wavelets;Goswami, Jaideva;signal_processing;228;Wiley
+10022;Data Smart;Foreman, John;data_science;235;Wiley
+10023;God Created the Integers;Hawking, Stephen;mathematics;197;Penguin
+10024;Superfreakonomics;Dubner, Stephen;economics;179;HarperCollins
+10025;Orientalism;Said, Edward;history;197;Penguin
+10026;Nature of Statistical Learning Theory, The;Vapnik, Vladimir;data_science;230;Springer
+10027;Integration of the Indian States;Menon, V P;history;217;Orient Blackswan
+10028;Drunkard's Walk, The;Mlodinow, Leonard;science;197;Penguin
+10029;Image Processing & Mathematical Morphology;Shih, Frank;signal_processing;241;CRC
+10030;How to Think Like Sherlock Holmes;Konnikova, Maria;psychology;240;Penguin
+10031;Data Scientists at Work;Sebastian Gutierrez;data_science;230;Apress
+10032;Slaughterhouse Five;Vonnegut, Kurt;fiction;198;Random House
+10033;Birth of a Theorem;Villani, Cedric;mathematics;234;Bodley Head
+10034;Structure & Interpretation of Computer Programs;Sussman, Gerald;computer_science;240;MIT Press
+10035;Age of Wrath, The;Eraly, Abraham;history;238;Penguin
+10036;Trial, The;Kafka, Frank;fiction;198;Random House
+10037;Statistical Decision Theory';Pratt, John;data_science;236;MIT Press
+10038;Data Mining Handbook;Nisbet, Robert;data_science;242;Apress
+10039;New Machiavelli, The;Wells, H. G.;fiction;180;Penguin
+10040;Physics & Philosophy;Heisenberg, Werner;science;197;Penguin
+10041;Making Software;Oram, Andy;computer_science;232;O'Reilly
+10042;Analysis, Vol I;Tao, Terence;mathematics;248;HBA
+10043;Machine Learning for Hackers;Conway, Drew;data_science;233;O'Reilly
+10044;Signal and the Noise, The;Silver, Nate;data_science;233;Penguin
+10045;Python for Data Analysis;McKinney, Wes;data_science;233;O'Reilly
+10046;Introduction to Algorithms;Cormen, Thomas;computer_science;234;MIT Press
+10047;Beautiful and the Damned, The;Deb, Siddhartha;nonfiction;198;Penguin
+10048;Outsider, The;Camus, Albert;fiction;198;Penguin
+10049;Complete Sherlock Holmes, The - Vol I;Doyle, Arthur Conan;fiction;176;Random House
+10050;Complete Sherlock Holmes, The - Vol II;Doyle, Arthur Conan;fiction;176;Random House
+10051;Wealth of Nations, The;Smith, Adam;economics;175;Random House
+10052;Pillars of the Earth, The;Follett, Ken;fiction;176;Random House
+10053;Mein Kampf;Hitler, Adolf;nonfiction;212;Rupa
+10054;Tao of Physics, The;Capra, Fritjof;science;179;Penguin
+10055;Surely You're Joking Mr Feynman;Feynman, Richard;science;198;Random House
+10056;Farewell to Arms, A;Hemingway, Ernest;fiction;179;Rupa
+10057;Veteran, The;Forsyth, Frederick;fiction;177;Transworld
+10058;False Impressions;Archer, Jeffery;fiction;177;Pan
+10059;Last Lecture, The;Pausch, Randy;nonfiction;197;Hyperion
+10060;Return of the Primitive;Rand, Ayn;philosophy;202;Penguin
+10061;Jurassic Park;Crichton, Michael;fiction;174;Random House
+10062;Russian Journal, A;Steinbeck, John;nonfiction;196;Penguin
+10063;Tales of Mystery and Imagination;Poe, Edgar Allen;fiction;172;HarperCollins
+10064;Freakonomics;Dubner, Stephen;economics;197;Penguin
+10065;Hidden Connections, The;Capra, Fritjof;science;197;HarperCollins
+10066;Story of Philosophy, The;Durant, Will;philosophy;170;Pocket
+10067;Asami Asami;Deshpande, P L;fiction;205;Mauj
+10068;Journal of a Novel;Steinbeck, John;fiction;196;Penguin
+10069;Once There Was a War;Steinbeck, John;nonfiction;196;Penguin
+10070;Moon is Down, The;Steinbeck, John;fiction;196;Penguin
+10071;Brethren, The;Grisham, John;fiction;174;Random House
+10072;In a Free State;Naipaul, V. S.;fiction;196;Rupa
+10073;Catch 22;Heller, Joseph;fiction;178;Random House
+10074;Complete Mastermind, The;BBC;nonfiction;178;BBC
+10075;Dylan on Dylan;Dylan, Bob;nonfiction;197;Random House
+10076;Soft Computing & Intelligent Systems;Gupta, Madan;data_science;242;Elsevier
+10077;Textbook of Economic Theory;Stonier, Alfred;economics;242;Pearson
+10078;Econometric Analysis;Greene, W. H.;economics;242;Pearson
+10079;Learning OpenCV;Bradsky, Gary;data_science;232;O'Reilly
+10080;Data Structures Using C & C++;Tanenbaum, Andrew;computer_science;235;Prentice Hall
+10081;Computer Vision, A Modern Approach;Forsyth, David;data_science;255;Pearson
+10082;Principles of Communication Systems;Taub, Schilling;computer_science;240;TMH
+10083;Let Us C;Kanetkar, Yashwant;computer_science;213;Prentice Hall
+10084;Amulet of Samarkand, The;Stroud, Jonathan;fiction;179;Random House
+10085;Crime and Punishment;Dostoevsky, Fyodor;fiction;180;Penguin
+10086;Angels & Demons;Brown, Dan;fiction;178;Random House
+10087;Argumentative Indian, The;Sen, Amartya;nonfiction;209;Picador
+10088;Sea of Poppies;Ghosh, Amitav;fiction;197;Penguin
+10089;Idea of Justice, The;Sen, Amartya;nonfiction;212;Penguin
+10090;Raisin in the Sun, A;Hansberry, Lorraine;fiction;175;Penguin
+10091;All the President's Men;Woodward, Bob;history;177;Random House
+10092;Prisoner of Birth, A;Archer, Jeffery;fiction;176;Pan
+10093;Scoop!;Nayar, Kuldip;history;216;HarperCollins
+10094;Ahe Manohar Tari;Deshpande, Sunita;nonfiction;213;Mauj
+10095;Last Mughal, The;Dalrymple, William;history;199;Penguin
+10096;Social Choice & Welfare, Vol 39 No. 1;Various;economics;235;Springer
+10097;Radiowaril Bhashane & Shrutika;Deshpande, P L;nonfiction;213;Mauj
+10098;Gun Gayin Awadi;Deshpande, P L;nonfiction;212;Mauj
+10099;Aghal Paghal;Deshpande, P L;nonfiction;212;Mauj
+10100;Maqta-e-Ghalib;Garg, Sanjay;fiction;221;Mauj
+10101;Beyond Degrees;;nonfiction;222;HarperCollins
+10102;Manasa;Kale, V P;nonfiction;213;Mauj
+10103;India from Midnight to Milennium;Tharoor, Shashi;history;198;Penguin
+10104;World's Greatest Trials, The;;history;210;
+10105;Great Indian Novel, The;Tharoor, Shashi;fiction;198;Penguin
+10106;O Jerusalem!;Lapierre, Dominique;history;217;vikas
+10107;City of Joy, The;Lapierre, Dominique;fiction;177;vikas
+10108;Freedom at Midnight;Lapierre, Dominique;history;167;vikas
+10109;Winter of Our Discontent, The;Steinbeck, John;fiction;196;Penguin
+10110;On Education;Russell, Bertrand;philosophy;203;Routledge
+10111;Free Will;Harris, Sam;philosophy;203;FreePress
+10112;Bookless in Baghdad;Tharoor, Shashi;nonfiction;206;Penguin
+10113;Case of the Lame Canary, The;Gardner, Earle Stanley;fiction;179;
+10114;Theory of Everything, The;Hawking, Stephen;science;217;Jaico
+10115;New Markets & Other Essays;Drucker, Peter;economics;176;Penguin
+10116;Electric Universe;Bodanis, David;science;201;Penguin
+10117;Hunchback of Notre Dame, The;Hugo, Victor;fiction;175;Random House
+10118;Burning Bright;Steinbeck, John;fiction;175;Penguin
+10119;Age of Discontuinity, The;Drucker, Peter;economics;178;Random House
+10120;Doctor in the Nude;Gordon, Richard;fiction;179;Penguin
+10121;Down and Out in Paris & London;Orwell, George;nonfiction;179;Penguin
+10122;Identity & Violence;Sen, Amartya;philosophy;219;Penguin
+10123;Beyond the Three Seas;Dalrymple, William;history;197;Random House
+10124;World's Greatest Short Stories, The;;fiction;217;Jaico
+10125;Talking Straight;Iacoca, Lee;nonfiction;175;
+10126;Maugham's Collected Short Stories, Vol 3;Maugham, William S;fiction;171;Vintage
+10127;Phantom of Manhattan, The;Forsyth, Frederick;fiction;180;
+10128;Ashenden of The British Agent;Maugham, William S;fiction;160;Vintage
+10129;Zen & The Art of Motorcycle Maintenance;Pirsig, Robert;philosophy;172;Vintage
+10130;Great War for Civilization, The;Fisk, Robert;history;197;HarperCollins
+10131;We the Living;Rand, Ayn;fiction;178;Penguin
+10132;Artist and the Mathematician, The;Aczel, Amir;science;186;HighStakes
+10133;History of Western Philosophy;Russell, Bertrand;philosophy;213;Routledge
+10134;Selected Short Stories;;fiction;215;Jaico
+10135;Rationality & Freedom;Sen, Amartya;economics;213;Springer
+10136;Clash of Civilizations and Remaking of the World Order;Huntington, Samuel;history;228;Simon&Schuster
+10137;Uncommon Wisdom;Capra, Fritjof;nonfiction;197;Fontana
+10138;One;Bach, Richard;nonfiction;172;Dell
+10139;Karl Marx Biography;;nonfiction;162;
+10140;To Sir With Love;Braithwaite;fiction;197;Penguin
+10141;Half A Life;Naipaul, V S;fiction;196;
+10142;Discovery of India, The;Nehru, Jawaharlal;history;230;
+10143;Apulki;Deshpande, P L;nonfiction;211;
+10144;Unpopular Essays;Russell, Bertrand;philosophy;198;
+10145;Deceiver, The;Forsyth, Frederick;fiction;178;
+10146;Veil: Secret Wars of the CIA;Woodward, Bob;history;171;
+10147;Char Shabda;Deshpande, P L;nonfiction;214;
+10148;Rosy is My Relative;Durrell, Gerald;fiction;176;
+10149;Moon and Sixpence, The;Maugham, William S;fiction;180;
+10150;Political Philosophers;;philosophy;162;
+10151;Short History of the World, A;Wells, H G;history;197;
+10152;Trembling of a Leaf, The;Maugham, William S;fiction;205;
+10153;Doctor on the Brain;Gordon, Richard;fiction;204;
+10154;Simpsons & Their Mathematical Secrets;Singh, Simon;science;233;
+10155;Pattern Classification;Duda, Hart;data_science;241;
+10156;From Beirut to Jerusalem;Friedman, Thomas;history;202;
+10157;Code Book, The;Singh, Simon;science;197;
+10158;Age of the Warrior, The;Fisk, Robert;history;197;
+10159;Final Crisis;;comic;257;
+10160;Killing Joke, The;;comic;283;
+10161;Flashpoint;;comic;265;
+10162;Batman Earth One;;comic;265;
+10163;Crisis on Infinite Earths;;comic;258;
+10164;Numbers Behind Numb3rs, The;Devlin, Keith;science;202;
+10165;Superman Earth One - 1;;comic;259;
+10166;Superman Earth One - 2;;comic;258;
+10167;Justice League: Throne of Atlantis;;comic;258;
+10168;Justice League: The Villain's Journey;;comic;258;
+10169;Death of Superman, The;;comic;258;
+10170;History of the DC Universe;;comic;258;
+10171;Batman: The Long Halloween;;comic;258;
+10172;Life in Letters, A;Steinbeck, John;nonfiction;196;
+10173;Information, The;Gleick, James;science;233;
+10174;Journal of Economics, vol 106 No 3;;economics;235;
+10175;Elements of Information Theory;Thomas, Joy;data_science;229;
+10176;Power Electronics - Rashid;Rashid, Muhammad;computer_science;235;
+10177;Power Electronics - Mohan;Mohan, Ned;computer_science;237;
+10178;Neural Networks;Haykin, Simon;data_science;240;
+10179;Grapes of Wrath, The;Steinbeck, John;fiction;196;
+10180;Vyakti ani Valli;Deshpande, P L;nonfiction;211;
+10181;Statistical Learning Theory;Vapnik, Vladimir;data_science;228;
+10182;Empire of the Mughal - The Tainted Throne;Rutherford, Alex;history;180;
+10183;Empire of the Mughal - Brothers at War;Rutherford, Alex;history;180;
+10184;Empire of the Mughal - Ruler of the World;Rutherford, Alex;history;180;
+10185;Empire of the Mughal - The Serpent's Tooth;Rutherford, Alex;history;180;
+10186;Empire of the Mughal - Raiders from the North;Rutherford, Alex;history;180;
+10187;Mossad;Baz-Zohar, Michael;history;236;
+10188;Jim Corbett Omnibus;Corbett, Jim;nonfiction;223;
+10189;20000 Leagues Under the Sea;Verne, Jules;fiction;190;
+10190;Batatyachi Chal;Deshpande P L;fiction;200;
+10191;Hafasavnuk;Deshpande P L;fiction;211;
+10192;Urlasurla;Deshpande P L;fiction;211;
+10193;Pointers in C;Kanetkar, Yashwant;computer_science;213;
+10194;Cathedral and the Bazaar, The;Raymond, Eric;computer_science;217;
+10195;Design with OpAmps;Franco, Sergio;computer_science;240;
+10196;Think Complexity;Downey, Allen;data_science;230;
+10197;Devil's Advocate, The;West, Morris;fiction;178;
+10198;Ayn Rand Answers;Rand, Ayn;philosophy;203;
+10199;Philosophy: Who Needs It;Rand, Ayn;philosophy;171;
+10200;World's Great Thinkers, The;;philosophy;189;
+10201;Data Analysis with Open Source Tools;Janert, Phillip;data_science;230;
+10202;Broca's Brain;Sagan, Carl;science;174;
+10203;Men of Mathematics;Bell, E T;mathematics;217;
+10204;Oxford book of Modern Science Writing;Dawkins, Richard;science;240;
+10205;Justice, Judiciary and Democracy;Ranjan, Sudhanshu;philosophy;224;
+10206;Arthashastra, The;Kautiyla;philosophy;214;
+10207;We the People;Palkhivala;philosophy;216;
+10208;We the Nation;Palkhivala;philosophy;216;
+10209;Courtroom Genius, The;Sorabjee;nonfiction;217;
+10210;Dongri to Dubai;Zaidi, Hussain;nonfiction;216;
+10211;History of England, Foundation;Ackroyd, Peter;history;197;
+10212;City of Djinns;Dalrymple, William;history;198;
+10213;India's Legal System;Nariman;nonfiction;177;
+10214;More Tears to Cry;Sassoon, Jean;fiction;235;
+10215;Ropemaker, The;Dickinson, Peter;fiction;196;
+10216;Angels & Demons;Brown, Dan;fiction;170;
+10217;Judge, The;;fiction;170;
+10218;Attorney, The;;fiction;170;
+10219;Prince, The;Machiavelli;philosophy;173;
+10220;Eyeless in Gaza;Huxley, Aldous;fiction;180;
+10221;Tales of Beedle the Bard;Rowling, J K;fiction;184;
+10222;Girl with the Dragon Tattoo;Larsson, Steig;fiction;179;
+10223;Girl who kicked the Hornet's Nest;Larsson, Steig;fiction;179;
+10224;Girl who played with Fire;Larsson, Steig;fiction;179;
+10225;Batman Handbook;;comic;270;
+10226;Murphy's Law;;nonfiction;178;
+10227;Structure and Randomness;Tao, Terence;mathematics;252;
+10228;Image Processing with MATLAB;Eddins, Steve;signal_processing;241;
