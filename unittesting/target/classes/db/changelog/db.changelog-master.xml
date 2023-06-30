@@ -1,0 +1,166 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.6.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+  
+
+  
+  
+  
+  
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-1">
+        <createTable tableName="address">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="city" type="VARCHAR(255)"/>
+            <column name="country" type="VARCHAR(45)"/>
+            <column name="state" type="VARCHAR(45)"/>
+            <column name="street" type="VARCHAR(255)"/>
+            <column name="zip_code" type="VARCHAR(255)"/>
+            <column name="customer_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-2">
+        <createTable tableName="auth_request">
+            <column name="user_name" type="VARCHAR(255)">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="password" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-3">
+        <createTable tableName="customer">
+            <column autoIncrement="true" name="customer_id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="customer_dob" type="date"/>
+            <column name="customer_email" type="VARCHAR(255)"/>
+            <column name="customer_first_name" type="VARCHAR(255)"/>
+            <column name="customer_gender" type="VARCHAR(255)"/>
+            <column name="customer_last_name" type="VARCHAR(255)"/>
+            <column name="customer_number" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-4">
+        <createTable tableName="customer_items">
+            <column name="customers_customer_id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="items_item_id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-5">
+        <createTable tableName="food">
+            <column name="id" type="INT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="category" type="VARCHAR(255)"/>
+            <column name="description" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="price" type="DOUBLE">
+                <constraints nullable="false"/>
+            </column>
+            <column name="vegetarian" type="BIT(1)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-6">
+        <createTable tableName="items">
+            <column autoIncrement="true" name="item_id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="brand" type="VARCHAR(45)"/>
+            <column name="category" type="VARCHAR(45)"/>
+            <column name="color" type="VARCHAR(45)"/>
+            <column name="description" type="VARCHAR(45)"/>
+            <column name="item_name" type="VARCHAR(45)"/>
+            <column name="price" type="DOUBLE"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-7">
+        <createTable tableName="orders_table">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="order_number" type="VARCHAR(255)"/>
+            <column name="order_quantity" type="INT"/>
+            <column name="order_status" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="total_price" type="DOUBLE"/>
+            <column name="customer_id" type="BIGINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-8">
+        <createTable tableName="orders_table_items">
+            <column name="orders_tables_id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="items_item_id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-9">
+        <createTable tableName="student">
+            <column name="student_id" type="BIGINT">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="address" type="VARCHAR(255)"/>
+            <column name="email" type="VARCHAR(255)"/>
+            <column name="gender" type="VARCHAR(255)"/>
+            <column name="mobile_number" type="BIGINT"/>
+            <column name="name" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-10">
+        <createTable tableName="user">
+            <column name="user_name" type="VARCHAR(255)">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="password" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-11">
+        <createIndex indexName="FK2d4qeygra2glsh6taccx2jyce" tableName="orders_table_items">
+            <column name="items_item_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-12">
+        <createIndex indexName="FK93c3js0e22ll1xlu21nvrhqgg" tableName="address">
+            <column name="customer_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-13">
+        <createIndex indexName="FKhxm32odohvy84doslkldg9au4" tableName="orders_table">
+            <column name="customer_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-14">
+        <createIndex indexName="FKlq197236e2g4do1of1orva60b" tableName="customer_items">
+            <column name="items_item_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-15">
+        <addForeignKeyConstraint baseColumnNames="items_item_id" baseTableName="orders_table_items" constraintName="FK2d4qeygra2glsh6taccx2jyce" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="item_id" referencedTableName="items" validate="true"/>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-16">
+        <addForeignKeyConstraint baseColumnNames="customer_id" baseTableName="address" constraintName="FK93c3js0e22ll1xlu21nvrhqgg" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="customer_id" referencedTableName="customer" validate="true"/>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-17">
+        <addForeignKeyConstraint baseColumnNames="orders_tables_id" baseTableName="orders_table_items" constraintName="FKg13sfcb5rowmt89234ev5ljda" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="id" referencedTableName="orders_table" validate="true"/>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-18">
+        <addForeignKeyConstraint baseColumnNames="customers_customer_id" baseTableName="customer_items" constraintName="FKgpytkahh4rwgnvlbok2284n0u" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="customer_id" referencedTableName="customer" validate="true"/>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-19">
+        <addForeignKeyConstraint baseColumnNames="customer_id" baseTableName="orders_table" constraintName="FKhxm32odohvy84doslkldg9au4" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="customer_id" referencedTableName="customer" validate="true"/>
+    </changeSet>
+    <changeSet author="ravi.kosuru (generated)" id="1687171102603-20">
+        <addForeignKeyConstraint baseColumnNames="items_item_id" baseTableName="customer_items" constraintName="FKlq197236e2g4do1of1orva60b" deferrable="false" initiallyDeferred="false" onDelete="RESTRICT" onUpdate="RESTRICT" referencedColumnNames="item_id" referencedTableName="items" validate="true"/>
+    </changeSet>
+ <include file="db/changelog/db.changelog-1.xml"/>
+	<include file="db/changelog/db.changelog-1.2.xml"/>
+</databaseChangeLog>

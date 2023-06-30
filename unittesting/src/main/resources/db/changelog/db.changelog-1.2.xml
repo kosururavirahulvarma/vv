@@ -1,0 +1,81 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.6.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+  
+
+  
+	<changeSet author="ravi.kosuru (generated)" id="26">
+		<createTable tableName="address">
+		
+			<column  name="id" type="INT">
+			   <constraints nullable="false" primaryKey="true"/>
+			</column>
+			<column name="hno" type="VARCHAR(255)" />
+			<column name="street" type="VARCHAR(255)" />
+			<column name="city" type="VARCHAR(255)" />
+			<column name="country" type="VARCHAR(255)" />
+			<column name="pincode" type="INT" />
+		</createTable>
+	</changeSet>
+	
+	<changeSet  author="ravi.kosuru (generated)"  id="27">  
+    <renameTable   
+            newTableName="employee_address"  
+            oldTableName="address"/>  
+</changeSet>
+
+<changeSet  author="ravi.kosuru (generated)"  id="28">  
+    <renameColumn  
+            columnDataType="VARCHAR(255)"  
+            newColumnName="house_number"  
+            oldColumnName="hno"  
+            remarks="A String"  
+            tableName="employee_address"/>  
+</changeSet>
+
+<changeSet  author="ravi.kosuru (generated)"  id="29">  
+    <modifyDataType
+            columnName="pincode"  
+            newDataType="BIGINT(20)"    
+            tableName="employee_address"/>  
+</changeSet>
+
+<!--  <changeSet  author="ravi.kosuru (generated)"  id="30">  
+     <addPrimaryKey columnNames="id" tableName="employee_address"/>
+</changeSet> 
+
+<changeSet author="ravi.kosuru (generated)" id="34">  
+	<addAutoIncrement 
+		columnDataType="INT"
+		columnName="id"
+		incrementBy="1" 
+		startWith="1000"  
+		tableName="employee_address"/>  
+</changeSet>
+<changeSet id="35" author="ravi.kosuru (generated)">
+<addColumn tableName="employee_address" >
+<column name="employee_id" type="INT"></column>
+
+</addColumn>
+
+</changeSet>
+<changeSet  author="ravi.kosuru (generated)"  id="36">  
+    <addForeignKeyConstraint  baseColumnNames="employee_id"  
+            
+            baseTableName="employee_address"  
+            constraintName="fk_employee_address_employee_table"   
+            onDelete="CASCADE"  
+            onUpdate="RESTRICT"  
+            referencedColumnNames="employee_id"   
+            referencedTableName="employee_table"    
+           />  
+</changeSet>
+ -->
+</databaseChangeLog>
+
+
+
+
+
+
+
+
